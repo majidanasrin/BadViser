@@ -1,0 +1,422 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(135deg, #1a237e 0%, #000051 50%, #000000 100%);
+    min-height: 100vh;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+    animation: fadeInDown 1s ease-out;
+}
+
+.title {
+    font-size: clamp(3rem, 8vw, 5rem);
+    font-weight: 800;
+    color: white;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
+    letter-spacing: -0.02em;
+}
+
+.tagline {
+    font-size: clamp(1rem, 3vw, 1.25rem);
+    color: #b0bec5;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1rem 2rem;
+}
+
+/* Dropdown Styles */
+.dropdown-container {
+    text-align: center;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+.dropdown-label {
+    display: block;
+    font-size: 1.1rem;
+    color: #b0bec5;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.advice-dropdown {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.advice-dropdown:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.advice-dropdown option {
+    background: #1a237e;
+    color: white;
+}
+
+/* Advice Card - Glassmorphism */
+.advice-card {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    animation: fadeInUp 1s ease-out 0.4s both;
+    transition: all 0.3s ease;
+}
+
+.advice-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 
+        0 12px 40px rgba(0, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.advice-text {
+    font-size: clamp(1.1rem, 4vw, 1.4rem);
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 2rem;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.advice-text.fade-out {
+    opacity: 0;
+}
+
+.advice-text.fade-in {
+    opacity: 1;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Primary Advice Button */
+.advice-button {
+    background: linear-gradient(135deg, #ff5c5c 0%, #ff9b9b 100%);
+    border: none;
+    border-radius: 16px;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(255, 92, 92, 0.3);
+    font-family: 'Nunito', sans-serif;
+}
+
+.advice-button:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 30px rgba(255, 92, 92, 0.5);
+    background: linear-gradient(135deg, #ff4444 0%, #ff8888 100%);
+}
+
+.advice-button:active {
+    transform: translateY(-1px) scale(1.02);
+}
+
+/* Favorite Button */
+.favorite-button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #b0bec5;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    font-family: 'Nunito', sans-serif;
+}
+
+.favorite-button:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.favorite-button.favorited {
+    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+    color: #1a237e;
+    border-color: #ffd700;
+}
+
+/* Interaction Section */
+.interaction-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    animation: fadeInUp 1s ease-out 0.6s both;
+}
+
+.share-button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #b0bec5;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    font-family: 'Nunito', sans-serif;
+}
+
+.share-button:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Rating Section */
+.rating-section {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.rating-label {
+    font-size: 0.9rem;
+    color: #b0bec5;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.rating-buttons {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.rating-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: #b0bec5;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    font-family: 'Nunito', sans-serif;
+}
+
+.rating-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transform: scale(1.1);
+}
+
+.rating-btn.selected {
+    background: linear-gradient(135deg, #ff5c5c 0%, #ff9b9b 100%);
+    color: white;
+    border-color: #ff5c5c;
+}
+
+/* Favorites Section */
+.favorites-section {
+    animation: fadeInUp 1s ease-out 0.8s both;
+}
+
+.favorites-title {
+    font-size: 1.5rem;
+    color: #b0bec5;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.favorites-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.favorite-item {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.favorite-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateX(5px);
+}
+
+.favorite-text {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #e0e0e0;
+    margin-right: 1rem;
+}
+
+.remove-btn {
+    background: rgba(255, 92, 92, 0.2);
+    border: 1px solid rgba(255, 92, 92, 0.3);
+    border-radius: 6px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    color: #ff9b9b;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Nunito', sans-serif;
+}
+
+.remove-btn:hover {
+    background: rgba(255, 92, 92, 0.4);
+    color: white;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    animation: fadeInUp 1s ease-out 1s both;
+}
+
+.disclaimer {
+    font-size: 0.9rem;
+    color: #78909c;
+    font-style: italic;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        padding: 2rem 1rem 1.5rem;
+    }
+    
+    .advice-card {
+        padding: 2rem 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .advice-button,
+    .favorite-button {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .interaction-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    .rating-section {
+        justify-content: center;
+    }
+    
+    .favorite-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    
+    .favorite-text {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        padding: 0 0.75rem 1.5rem;
+    }
+    
+    .advice-card {
+        padding: 1.5rem 1rem;
+    }
+    
+    .rating-buttons {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
