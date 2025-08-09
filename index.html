@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badviser - Ask. Receive bad advice. Laugh responsibly.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="title">Badviser</h1>
+        <p class="tagline">Ask. Receive bad advice. Laugh responsibly.</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Advice Level Dropdown -->
+        <div class="dropdown-container">
+            <label for="advice-level" class="dropdown-label">Badvice level:</label>
+            <select id="advice-level" class="advice-dropdown">
+                <option value="mild">Mildly Bad</option>
+                <option value="horrible">Horrible</option>
+                <option value="catastrophic">Catastrophic</option>
+            </select>
+        </div>
+
+        <!-- Advice Card -->
+        <div class="advice-card">
+            <div class="advice-text" id="advice-text">
+                Click the button below to receive your first dose of questionable wisdom!
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="button-container">
+                <button class="advice-button" id="get-advice-btn">
+                    Give me bad advice!
+                </button>
+                <button class="favorite-button" id="favorite-btn">
+                    ⭐ Favorite
+                </button>
+            </div>
+        </div>
+
+        <!-- Share and Rating Section -->
+        <div class="interaction-section">
+            <button class="share-button" id="share-btn">
+                📤 Share
+            </button>
+            
+            <div class="rating-section">
+                <span class="rating-label">Rate this advice:</span>
+                <div class="rating-buttons">
+                    <button class="rating-btn" data-rating="1">1</button>
+                    <button class="rating-btn" data-rating="2">2</button>
+                    <button class="rating-btn" data-rating="3">3</button>
+                    <button class="rating-btn" data-rating="4">4</button>
+                    <button class="rating-btn" data-rating="5">5</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Favorites Section -->
+        <div class="favorites-section" id="favorites-section" style="display: none;">
+            <h3 class="favorites-title">Favorites</h3>
+            <div class="favorites-list" id="favorites-list">
+                <!-- Favorite advice items will be added here dynamically -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="disclaimer">
+            Disclaimer: Badviser is for entertainment only. Do not follow this advice.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
