@@ -13,20 +13,18 @@
 - Member 1: Majida Nasrin M P - CUSAT 
 
 ### Project Description
-Badviser is a witty web app that generates absurdly terrible advice for any situation. Whether you’re looking to ruin your diet, your relationships, or your career, Badviser has you covered.
+Badviser is a quirky web app that delivers random, hilariously awful life advice at the click of a button. 
 ### The Problem (that doesn't exist)
-Too many people get good advice, leading to wise decisions, stable lives, and happiness — boring! Where’s the chaos, the drama, the poor life choices?
-
+People are overwhelmed with good advice, leading to responsible choices, stable lives, and boring dinner conversations. There’s no app to help you make entertainingly poor decisions — until now.
 ### The Solution (that nobody asked for)
-Badviser delivers the exact opposite of what you should do. With our AI-powered nonsense generator, you can finally make hilariously awful decisions with confidence.
-
+Badviser uses AI to generate absurd, illogical, and downright ridiculous suggestions for any situation. It’s your one-stop shop for life tips guaranteed to cause chaos, confusion, and comedy.
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
+- HTML,CSS,JavaScript
+- 
 - [Libraries used]
-- [Tools used]
+- VS code , Generative AI
 
 For Hardware:
 - [List main components]
