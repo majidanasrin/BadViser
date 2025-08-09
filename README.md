@@ -21,10 +21,8 @@ Badviser uses AI to generate absurd, illogical, and downright ridiculous suggest
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- HTML,CSS,JavaScript
-- 
-- VS code , Generative AI , 
-
+- Langauge used - HTML,CSS,JavaScript
+- Tools used - VS code , Generative AI  
 ### Implementation
 For Software:
 # Installation
@@ -37,18 +35,18 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
+<img width="1892" height="860" alt="Screenshot 2025-08-09 161955" src="https://github.com/user-attachments/assets/8d77a00c-30e0-4a60-9cf3-46539a465221" />
+This is the main page of the website!
+<img width="1884" height="848" alt="Screenshot 2025-08-09 162011" src="https://github.com/user-attachments/assets/8b382493-c695-453f-884c-935605fb68d3" />
+you can select the advice levels as mild, horrible, catastrophic .
+<img width="1898" height="851" alt="Screenshot 2025-08-09 161926" src="https://github.com/user-attachments/assets/8588e9a1-c128-4d66-afbe-83e0acd4ea12" />
+By simply clicking "Give Me Bad Idea" and choosing your preferred level of badness, you can instantly generate delightfully disastrous advice.
+<img width="1532" height="803" alt="Screenshot 2025-08-09 162046" src="https://github.com/user-attachments/assets/91990d29-2be0-4d3e-8ee5-89561aeb98c7" />
+You can save your favorite pieces of terrible advice and revisit them later for an extra dose of bad inspiration.
+<img width="1733" height="795" alt="image" src="https://github.com/user-attachments/assets/cc736f48-ee11-4f85-a146-284f400b5ba8" />
+you can rate the advice from 1 to 5 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+
 
 For Hardware:
 
@@ -74,13 +72,7 @@ For Hardware:
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
