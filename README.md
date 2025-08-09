@@ -23,13 +23,7 @@ Badviser uses AI to generate absurd, illogical, and downright ridiculous suggest
 For Software:
 - HTML,CSS,JavaScript
 - 
-- [Libraries used]
-- VS code , Generative AI
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- VS code , Generative AI , 
 
 ### Implementation
 For Software:
