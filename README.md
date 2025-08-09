@@ -1,26 +1,24 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# BadViser
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: AM
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Anujith P P - CUSAT
+- Member 1: Majida Nasrin M P - CUSAT 
 
 ### Project Description
-[2-3 lines about what your project does]
-
+Badviser is a witty web app that generates absurdly terrible advice for any situation. Whether you’re looking to ruin your diet, your relationships, or your career, Badviser has you covered.
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Too many people get good advice, leading to wise decisions, stable lives, and happiness — boring! Where’s the chaos, the drama, the poor life choices?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Badviser delivers the exact opposite of what you should do. With our AI-powered nonsense generator, you can finally make hilariously awful decisions with confidence.
 
 ## Technical Details
 ### Technologies/Components Used
